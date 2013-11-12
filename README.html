@@ -180,7 +180,7 @@ hljs.initHighlightingOnLoad();
 <body>
 <h1>Optimizador MINLP con R y Pyomo</h1>
 
-<p>Este optimizador es un ejemplo de cómo usar <strong>R</strong> y <strong>Pyomo</strong> para realizar un optimizador fácil para el usuario final y hecho con software libre.  </p>
+<p>Este optimizador es un ejemplo de cómo usar <strong>R</strong> y <strong>Pyomo</strong> para realizar un optimizador fácil para el usuario final y hecho con software libre. Se puede probar la aplicación en <a href="http://jornadas-r.conento.com">http://jornadas-r.conento.com</a> . </p>
 
 <p>Realizado y presentado por Jorge Ayuso analista en <strong>Conento</strong> <a href="http://www.conento.com">www.conento.com</a> en las V Jornadas de Usuarios de R (España).</p>
 
@@ -200,10 +200,14 @@ hljs.initHighlightingOnLoad();
 <li>Shiny (<a href="http://www.rstudio.com/shiny">http://www.rstudio.com/shiny</a>).</li>
 </ul>
 
+<hr/>
+
 <h3>Modo de uso</h3>
 
 <p>Es necesario tener instalado y configurado en el PATH del sistema: Pyomo, Bonmin, Ipopt.<br/>
-Después ejecutar en R:</p>
+Además se necesita tener instalado en R los siguientes paquetes: Shiny, rCharts, googleVis, RJSONIO, reshape2, stringr, WriteXLS.  </p>
+
+<p>Después ejecutar en R:</p>
 
 <pre><code class="r">require(shiny)
 runGitHub(&quot;Optimizador_MINLP&quot;, &quot;Conento&quot;)
