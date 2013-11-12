@@ -5,7 +5,7 @@ Este optimizador es un ejemplo de cómo usar **R** y **Pyomo** para realizar un 
 Realizado y presentado por Jorge Ayuso analista en **Conento** www.conento.com en las V Jornadas de Usuarios de R (España).
 
 Más información:
-* Documento Metodológico: LINK
+* Documento Metodológico: Pendiente de actualización.
 * Contacto: [atencionalcliente@conento.com](mailto:atencionalcliente@conento.com)
 
 Softwares principales utilizados:
