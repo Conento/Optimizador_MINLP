@@ -91,36 +91,7 @@ shinyUI(pageWithSidebar(
                       
       ,value="resultados"),
                 
-    tabPanel("Acerca de...",
-             
-             HTML("<span>
-                  <p>  
-                  Este optimizador es un ejemplo de cómo usar R y Pyomo para realizar un \
-                  optimizador fácil para el usuario final y hecho con software libre.</br>
-                  Realizado y presentado por Jorge Ayuso analista en <b>Conento</b> <a href=\"http://www.conento.com\">www.conento.com</a>  \
-                  en las V Jornadas de Usuarios de R (España) .
-                  </p>
-                  
-                  <p>
-                  Para más información sobre el proyecto:<ul>
-                  <li>Documento Metodológico <span style=\"color:red;\">Pendiente de actualización.</span></li>
-                  <li>Códigos empleados disponibles en el <a href='http://github.com/Conento/Optimizador_MINLP' target=\"_blank\">Github</a> de Conento   </li>
-                  <li>Contacto: <a href=\"mailto:atencionalcliente@conento.com\" target=\"_blank\">atencionalcliente@conento.com</a></li>
-                  </ul>
-                  </p>
-
-                  <p>
-                  <b>Softwares principales utilizados:</b>
-                  <ul>
-                  <li>R (<a href=\"http://www.r-project.org\" target=\"_blank\">http://www.r-project.org</a>).</li>
-                  <li>Optimizadores del proyecto COIN-OR (<a href=\"http://www.coin-or.org\" target=\"_blank\">http://www.coin-or.org</a>).</li>
-                  <li>Pyomo (<a href=\"http://software.sandia.gov/trac/coopr/wiki/Pyomo\" target=\"_blank\">http://software.sandia.gov/trac/coopr/wiki/Pyomo</a>).</li>
-                  <li>Shiny (<a href=\"http://www.rstudio.com/shiny\" target=\"_blank\">http://www.rstudio.com/shiny</a>).</li>
-                  </ul>
-                  </p>
-                  </span>")
-             
-             )                
+    tabPanel("Acerca de...",includeMarkdown("README.md"))                
     )
   )
 ))
