@@ -103,8 +103,8 @@ shinyUI(pageWithSidebar(
                   
                   <p>
                   Para más información sobre el proyecto:<ul>
-                  <li>Documento Metodológico <span style=\"color:red;\">¿link a la web de conento con el pdf?</span></li>
-                  <li style=\"color:red;\">¿GITHUB?</li>
+                  <li>Documento Metodológico <span style=\"color:red;\">Pendiente de actualización.</span></li>
+                  <li>Códigos empleados disponibles en el <a href='http://github.com/Conento/Optimizador_MINLP' target=\"_blank\">Github</a> de Conento   </li>
                   <li>Contacto: <a href=\"mailto:atencionalcliente@conento.com\" target=\"_blank\">atencionalcliente@conento.com</a></li>
                   </ul>
                   </p>

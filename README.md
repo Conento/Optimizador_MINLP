@@ -20,6 +20,7 @@ Después ejecutar en R:
 
 ```r
 require(shiny)
-runGitHub(repo = "optimizadorMINLP", user = "conento")
+runGitHub("Optimizador_MINLP", "Conento")
 ```
+
 

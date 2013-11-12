@@ -70,9 +70,9 @@ shinyServer(function(input, output) {
     
 
     if( isolate(input$permitir)){    
-      log<-system(paste("pyomo bonmin.py ",file,".dat --solver bonmin --save-results ",file,".json",sep=""),show.output.on.console=TRUE)
+      log<-system(paste("pyomo bonmin.py ",file,".dat --solver bonmin --save-results ",file,".json",sep=""))
     }else{
-      log<-system(paste("pyomo ipopt.py ",file,".dat --solver ipopt --save-results ",file,".json",sep=""),show.output.on.console=TRUE)
+      log<-system(paste("pyomo ipopt.py ",file,".dat --solver ipopt --save-results ",file,".json",sep=""))
     }
     
     salida<-fromJSON(content=paste(file,".json",sep=""))
