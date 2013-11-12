@@ -1,6 +1,7 @@
 Optimizador MINLP con R y Pyomo
 ========================================================
 Este optimizador es un ejemplo de cómo usar **R** y **Pyomo** para realizar un optimizador fácil para el usuario final y hecho con software libre.  
+
 Realizado y presentado por Jorge Ayuso analista en **Conento** www.conento.com en las V Jornadas de Usuarios de R (España).
 
 Más información:
