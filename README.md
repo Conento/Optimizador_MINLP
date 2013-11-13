@@ -22,10 +22,8 @@ Además se necesita tener instalado en R los siguientes paquetes: Shiny, rCharts
 
 Después ejecutar en R:
 
-
-```r
-require(shiny)
-runGitHub("Optimizador_MINLP", "Conento")
+```{coffee eval=FALSE}
+require("shiny")
+runGitHub("Optimizador_MINLP","Conento")
 ```
-
 
