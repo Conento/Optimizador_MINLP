@@ -8,7 +8,8 @@ Realizado y presentado por Jorge Ayuso analista en **Conento** www.conento.com e
 Más información:
 * Documento Metodológico disponible en http://www.conento.com/noticias.
 * Github: https://github.com/Conento/Optimizador_MINLP.
-* Contacto: [atencionalcliente@conento.com](mailto:atencionalcliente@conento.com)
+* Contacto Conento: [atencionalcliente@conento.com](mailto:atencionalcliente@conento.com).
+* Contacto Autor: [jorge.ayuso@conento.com](mailto:jorge.ayuso@conento.com).
 
 Softwares principales utilizados:
 * R (http://www.r-project.org).
