@@ -55,7 +55,12 @@ shinyUI(pageWithSidebar(
         uiOutput("ui_guardar") 
         )
       
-      )
+      ),
+    
+    conditionalPanel(
+      condition = "input.panel != 'about'",
+   wellPanel(p(strong("Nota:"),"Todos los números de la aplicación están en formato español. El \".\"
+se utiliza para separador de miles y la \",\" para separador decimal.")))
     
   ), 
   
@@ -91,7 +96,7 @@ shinyUI(pageWithSidebar(
                       
       ,value="resultados"),
                 
-    tabPanel("Acerca de...",includeMarkdown("README.md"))                
+    tabPanel("Acerca de...",includeMarkdown("README.md"),value="about")                
     )
   )
 ))
