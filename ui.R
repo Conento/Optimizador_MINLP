@@ -14,11 +14,11 @@ shinyUI(pageWithSidebar(
                     .shiny-output-error{visibility:hidden}
                     label.radio { display: inline-block; margin: 0px 35px 0px;}
                     .text-center{ text-align:center; }
-                    *{font-family: 'Ubuntu','Droid Sans',sans-serif;}
-                    ")),#*{font-family: sans-serif;}
+                    *, button{font-family: 'Droid Sans',sans-serif;}
+                    ")),
     
     tags$head(HTML("<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>")),
-    tags$head(HTML("<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,400italic,500italic,700italic' rel='stylesheet' type='text/css'>")),
+    
     
     tags$script(type='text/javascript', src='lang.js'),
   
